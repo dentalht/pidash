@@ -1,15 +1,15 @@
 {
-  "name": "angular2-dashboard-starter",
-  "author": "Hasan Hameed",
-  "version": "1.2.0",
-  "description": "Ready to use dashboard starter/seed project based on Angular 2 and AdminLTE theme.",
-  "homepage": "https://github.com/hasanhameed07/angular2-dashboard-starter",
+  "name": "pidash",
+  "author": "Green Thumb",
+  "version": "0.0.1",
+  "description": "Ready to use dashboard for greenhouse project based on Angular 2 and AdminLTE theme.",
+  "homepage": "https://github.com/dentalht/pidash",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/hasanhameed07/angular2-dashboard-starter"
+    "url": "https://github.com/dentalht/pidash"
   },
   "contributors": [
-    "Hasan Hameed <hasan.hameed07@gmail.com>"
+    "Green Thumb <techsupportak@gmail.com>"
   ],
   "scripts": {
     "postinstall": "npm run typings install",
