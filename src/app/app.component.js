@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'angular2/router', './shared/directives/custom-router-outlet', './auth_module/login/login.component', './auth_module/signup/signup.component', './home/home.component'], function(exports_1, context_1) {
+System.register(['angular2/core', 'angular2/router', './shared/directives/custom-router-outlet', './auth_module/login/login.component', './auth_module/signup/signup.component', './home/home.component', './feed/feed.component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['angular2/core', 'angular2/router', './shared/directives/custom
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, router_1, custom_router_outlet_1, login_component_1, signup_component_1, home_component_1;
+    var core_1, router_1, custom_router_outlet_1, login_component_1, signup_component_1, home_component_1, feed_component_1;
     var AppComponent;
     return {
         setters:[
@@ -31,6 +31,9 @@ System.register(['angular2/core', 'angular2/router', './shared/directives/custom
             },
             function (home_component_1_1) {
                 home_component_1 = home_component_1_1;
+            },
+            function (feed_component_1_1) {
+                feed_component_1 = feed_component_1_1;
             }],
         execute: function() {
             AppComponent = (function () {
@@ -44,6 +47,7 @@ System.register(['angular2/core', 'angular2/router', './shared/directives/custom
                     }),
                     router_1.RouteConfig([
                         { path: '/home', as: 'Home', component: home_component_1.HomeComponent, useAsDefault: true },
+                        { path: '/feed', as: 'Feed', component: feed_component_1.FeedComponent },
                         { path: '/login', as: 'Login', component: login_component_1.LoginComponent },
                         { path: '/signup', as: 'Signup', component: signup_component_1.SignupComponent },
                         { path: '/**', redirectTo: ['Home'] }

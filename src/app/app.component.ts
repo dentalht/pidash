@@ -6,6 +6,7 @@ import { checkAuth } from './auth_module/auth/check_auth';
 import { LoginComponent } from './auth_module/login/login.component';
 import { SignupComponent } from './auth_module/signup/signup.component';
 import { HomeComponent } from './home/home.component';
+import { FeedComponent } from './feed/feed.component';
 
 
 @Component({
@@ -15,6 +16,7 @@ import { HomeComponent } from './home/home.component';
 })
 @RouteConfig([
     { path: '/home', as: 'Home', component: HomeComponent, useAsDefault: true },
+    { path: '/feed', as: 'Feed', component: FeedComponent},
     { path: '/login', as: 'Login', component: LoginComponent },
     { path: '/signup', as: 'Signup', component: SignupComponent },
     { path: '/**', redirectTo: ['Home'] }
