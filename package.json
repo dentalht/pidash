@@ -2,9 +2,9 @@
   "name": "pidash",
   "author": "Green Thumb",
   "version": "0.0.1",
-  "description": "Ready to use dashboard for greenhouse project based on Angular 2 and AdminLTE theme.",
+  "description": "Ready to use dashboard for greenhouse project based on Angular 2.",
   "homepage": "https://github.com/dentalht/pidash",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "url": "https://github.com/dentalht/pidash"
   },
